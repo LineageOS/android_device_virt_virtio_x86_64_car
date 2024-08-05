@@ -5,6 +5,7 @@
 #
 
 # Inherit from those products. Most specific first.
+TARGET_SUPPORTS_OMX_SERVICE := false
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 $(call inherit-product, packages/services/Car/car_product/build/car.mk)
