@@ -17,6 +17,8 @@ $(call inherit-product, vendor/lineage/config/common_car.mk)
 # Inherit from device
 $(call inherit-product, device/virt/virtio_x86_64_car/device.mk)
 
+PRODUCT_ENFORCE_ARTIFACT_PATH_REQUIREMENTS := false
+
 PRODUCT_NAME := lineage_virtio_x86_64_car
 PRODUCT_DEVICE := virtio_x86_64_car
 PRODUCT_BRAND := VirtIO
